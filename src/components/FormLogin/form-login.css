@@ -1,0 +1,105 @@
+.form-login {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px #c0c0c0;
+    border-radius: 8px;
+
+    padding: 15px;
+    width: 370px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    margin-left: 30px;
+}
+
+.form-login form {
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.form-login__email,
+.form-login__password {
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: black54;
+    border: 0.7px solid #dedede;
+    border-radius: 5px;
+}
+
+.form-login__email:focus,
+.form-login__password:focus {
+    border: 0.5px solid;
+    border-color: #1977F2;
+    outline: none;
+    box-shadow: 0px 0px 2px rgb(82, 82, 82);
+}
+
+.form-login__btn-login {
+    background-color: #1a78f1;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+    width: 100%;
+    padding: 13px;
+}
+
+.form-login__btn-login:hover {
+    background-color: #166FE5;
+    transition: 0.5s;
+}
+
+.form-login__forgot-password {
+    display: inline;
+    text-align: center;
+
+    font-size: 14px;
+    color: #1977F2;
+}
+
+.form-login__line {
+    max-width: 370px;
+    border-top: 0.1px solid #dedede;
+
+    margin-bottom: 20px;
+}
+
+.btn-create-new-account {
+    width: 170px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: #68c032;
+    border-radius: 5px;
+    border: none;
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn-create-new-account:hover {
+    background-color: #5db329;
+}
+
+
+@media (max-width: 700px) {
+    .form-login {
+        padding: 15px;    
+        width: 80%; 
+    }
+    
+    .form-login form,
+    .form-login__line {
+       width: 90%;
+    }
+}

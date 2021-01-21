@@ -1,0 +1,30 @@
+.logo-info {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.logo-info img {
+    width: 300px;
+    margin-left: -35px;
+    margin-bottom: -40px;
+}
+
+.logo-info p {
+    font-size: 28px;
+    width: 550px;
+}
+
+@media (max-width: 700px) {
+
+    .logo-info img {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .logo-info p {
+        font-size: 22px;
+        text-align: center;
+        width: 80%;
+        margin-left: 50px;
+    }
+}
