@@ -1,6 +1,6 @@
 .logo-info {
-    margin: 0;
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-info img {

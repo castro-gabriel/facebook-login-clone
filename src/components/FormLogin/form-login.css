@@ -1,3 +1,12 @@
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    max-width: 370px;
+}
+
 .form-login {
     background-color: #ffffff;
     box-shadow: 1px 3px 10px #c0c0c0;
@@ -11,7 +20,6 @@
     align-content: center;
     align-items: center;
 
-    margin-left: 30px;
 }
 
 .form-login form {
@@ -102,4 +110,9 @@
     .form-login__line {
        width: 90%;
     }
+}
+
+.container-login p {
+    font-size: .8rem;
+    text-align: center;
 }

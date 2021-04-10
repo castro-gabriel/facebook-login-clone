@@ -3,15 +3,14 @@ import './App.css'
 
 import FormLogin from './components/FormLogin'
 import LogoInfo from './components/LogoInfo'
-import ModalRegister from './components/ModalRegister'
+import ContainerPage from './components/ContainerPage'
 
 const App = () => {
   return (
-    <div className='body-page'>
+    <ContainerPage>
         <LogoInfo />
         <FormLogin />
-        <ModalRegister />
-    </div>
+    </ContainerPage>
   )
 }
 
